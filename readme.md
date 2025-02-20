@@ -211,18 +211,7 @@ from IPython.display import Markdown, display
 display(Markdown("./tailored_resume.md"))
 - Dislplay the generated `interview_materials.md` file.
 display(Markdown("./interview_materials.md"))
-# CONGRATULATIONS!!!
 
-## Share your accomplishment!
-- Once you finish watching all the videos, you will see the "In progress" image on the bottom left turn into "Accomplished".
-- Click on "Accomplished" to view the course completion page with your name on it.
-- Take a screenshot and share on LinkedIn, X (Twitter), or Facebook.  
-- **Tag @Joāo (Joe) Moura, @crewAI, and @DeepLearning.AI, (and a few of your friends if you'd like them to try out the course)**
-- **Joāo and DeepLearning.AI will "like"/reshare/comment on your post!**
 
-## Get a completion badge that you can add to your LinkedIn profile!
-- Go to [learn.crewai.com](https://learn.crewai.com).
-- Upload your screenshot of your course completion page.
-- You'll get a badge from CrewAI that you can share!
 
-(Joāo will also talk about this in the last video of the course.)
+
