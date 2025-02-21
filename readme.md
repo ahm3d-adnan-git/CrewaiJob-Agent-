@@ -1,6 +1,6 @@
 # Build a Crew to Tailor Job Applications
 
-In this lesson, you will built your first multi-agent system.
+I have built my first multi-agent system.
 The libraries are already installed in the classroom. If you're running this notebook on your own machine, you can install the following:
 ```Python
 !pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
@@ -11,9 +11,9 @@ warnings.filterwarnings('ignore')
 - Import libraries, APIs and LLM
 from crewai import Agent, Task, Crew
 **Note**: 
-- The video uses `gpt-4-turbo`, but due to certain constraints, and in order to offer this course for free to everyone, the code you'll run here will use `gpt-3.5-turbo`.
-- You can use `gpt-4-turbo` when you run the notebook _locally_ (using `gpt-4-turbo` will not work on the platform)
-- Thank you for your understanding!
+The code we'll run here will use `gpt-3.5-turbo`.
+- You can use `gpt-4-turbo` when you run the notebook _locally_ 
+
 import os
 from utils import get_openai_api_key, get_serper_api_key
 
@@ -203,7 +203,7 @@ job_application_inputs = {
     innovation and growth in the tech industry. Ideal for leadership
     roles that require a strategic and innovative approach."""
 }
-**Note**: LLMs can provide different outputs for they same input, so what you get might be different than what you see in the video.
+**Note**: LLMs can provide different outputs for they same input, so what you get might be different than what you expect.
 ### this execution will take a few minutes to run
 result = job_application_crew.kickoff(inputs=job_application_inputs)
 - Dislplay the generated `tailored_resume.md` file.
